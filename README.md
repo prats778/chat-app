@@ -3,7 +3,7 @@ This project is deployed with firebase on url https://whatsapp-clone-62559.web.a
 ## Directions to use:
 
 #### 1-Open URL and login with id and hence you are registered and will be moved to the dashboard area
-
+##
 
 
 
@@ -19,7 +19,7 @@ This project is deployed with firebase on url https://whatsapp-clone-62559.web.a
   
   
 #### 2-Add your friends registered id on clicking the contacts tab and hitting the add new contact button below
-
+##
   
   ![2021-12-25 (2)](https://user-images.githubusercontent.com/58729042/147370987-5bb1992d-cd29-4a28-bb56-c57347efc4cf.png)
   
@@ -36,7 +36,7 @@ This project is deployed with firebase on url https://whatsapp-clone-62559.web.a
   
 
 #### 3-After adding a user to contact,you can click on the conversations tab and and hit add new conversation and select one(or more) of the registered contacts for the name to         appear on the conversation column
-
+##
 
 
 
@@ -66,7 +66,7 @@ This project is deployed with firebase on url https://whatsapp-clone-62559.web.a
   
   
 #### 4-Receiver doesnt need to save the id of user,rather as the incoming message will bear the id of sender and automatically appear on the conversation list and the receiver can now   save this id with any name
-
+##
 
 
 
@@ -90,7 +90,7 @@ This project is deployed with firebase on url https://whatsapp-clone-62559.web.a
   
   
 #### 5-Can send messages to your contacts and also know about their status(online and offline) and see the status of msg change accordingly
-
+##
 
 
 
@@ -113,8 +113,8 @@ This project is deployed with firebase on url https://whatsapp-clone-62559.web.a
   
   
   
-#### 6-To log out of your previous session and log in as new user,you can clear the local storage in the inspect application tool tab
-
+#### 6-To log out of your previous session and log in as new user or some bugs or blank(unresposive) page,you can clear the local storage in the inspect application tool tab
+##
 
 
 
