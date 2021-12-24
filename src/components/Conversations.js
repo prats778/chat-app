@@ -10,7 +10,8 @@ export default function Conversations({id}) {
   console.log("SideNav: ", conversations);
   React.useEffect(() => {
     setInterval(() => {
-      let URL = "http://localhost:8080";
+      // let URL = "http://localhost:8080";
+      let URL = "https://pacific-bastion-46538.herokuapp.com";
       axios.get(URL + "/active_users")
         .then(res => {
           console.log("RR:", res)

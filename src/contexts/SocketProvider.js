@@ -11,8 +11,10 @@ export function SocketProvider({ id, children }) {
   const [socket, setSocket] = useState()
 
   useEffect(() => {
+    let URL = "https://pacific-bastion-46538.herokuapp.com";
+    // let URL = 'http://localhost:8080',
     const newSocket = io(
-      'http://localhost:8080',
+      URL,
       {
         transports: ['websocket'], 
         query: { id },

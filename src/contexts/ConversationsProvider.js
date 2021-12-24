@@ -24,7 +24,8 @@ export function ConversationsProvider({ id, children }) {
 
   const addMessageToConversation = useCallback(({ recipients, text, sender }) => {
     // console.log("======>>>> called ", recipients, text, sender);
-    let URL = "http://localhost:8080";
+    // let URL = "http://localhost:8080";
+    let URL = "https://pacific-bastion-46538.herokuapp.com";
     let convo = []
 
     let rcp = recipients[0];
