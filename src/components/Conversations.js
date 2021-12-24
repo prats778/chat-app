@@ -30,7 +30,8 @@ export default function Conversations({id}) {
           key={index}
           action
           onClick={() => {
-            let URL = "http://localhost:8080";
+            // let URL = "http://localhost:8080";
+            let URL = "https://pacific-bastion-46538.herokuapp.com";
             axios.post(URL + "/update_peer", { user_id : id, peer_id : conversation.recipients[0].id })
               .then(res => {
                 console.log(res, "==>", { user_id : id, peer_id : conversation.recipients[0].id });
